@@ -1,0 +1,10 @@
+[package]
+name = "gas_sim"
+version = "1.0.0"
+edition = "2021"
+authors = ["Russel Einsla (reconstructed)"]
+description = "Gas law simulator: MCL + PID + EKF, ideal vs Van der Waals real gas"
+
+[dependencies]
+rand = "0.8"
+rand_distr = "0.4"
