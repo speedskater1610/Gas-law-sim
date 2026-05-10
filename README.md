@@ -2,9 +2,5 @@
 
 I basically wrote this for a chem project, it was pretty fun to write and refine as a project.
 
-- AMCL (adaptive Monte Carlo localization of particle pose) for each molecule with self PID tuning. 
-- a wide range of diffrent gasses to test
-- 2 graphs to have quantitative data on the simulation
-
-
-I  set up a gradle workflow and didnt even use gradle for the project
+- [GasSimulator.java](https://github.com/speedskater1610/Gas-law-sim/blob/main/GasSimulator.java) - This is a less-refined, standalone Java program that simulates particles but doesn't use any advanced filtering or localization
+- The rest of the repo is the rust more advanced but TUI without a GUI
